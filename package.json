@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "start:fluid": "concurrently \"npm:start:server\" \"npm:start\"",
-    "start:server": "tinylicious",
+    "start:server": "PORT=1234 tinylicious",
     "postinstall": "node patch-webpack.js"
   },
   "private": true,
